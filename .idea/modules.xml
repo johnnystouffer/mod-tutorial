@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mod-tutorial.iml" filepath="$PROJECT_DIR$/.idea/modules/mod-tutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mod-tutorial.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mod-tutorial.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mod-tutorial.test.iml" filepath="$PROJECT_DIR$/.idea/modules/mod-tutorial.test.iml" />
     </modules>
