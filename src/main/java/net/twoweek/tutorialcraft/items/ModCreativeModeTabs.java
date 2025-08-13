@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.twoweek.tutorialcraft.TutorialCraft;
+import net.twoweek.tutorialcraft.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATITVE_MODE_TABS =
@@ -24,6 +25,13 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.RUBY.get());
                         pOutput.accept(ModItems.SAPPHIRE.get());
+                        pOutput.accept(ModBlocks.RUBY_ORE.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
+                        pOutput.accept(ModItems.RUBY_SWORD.get());
+                        pOutput.accept(ModItems.RUBY_AXE.get());
+                        pOutput.accept(ModItems.RUBY_PICKAXE.get());
+                        pOutput.accept(ModItems.RUBY_SHOVEL.get());
+                        pOutput.accept(ModItems.RUBY_HOE.get());
                     })
                     .build());
     public static void register(IEventBus eventBus) {

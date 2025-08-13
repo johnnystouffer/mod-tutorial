@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model": "tutorialcraft:block/sapphire_ore"
+    }
+  }
+}

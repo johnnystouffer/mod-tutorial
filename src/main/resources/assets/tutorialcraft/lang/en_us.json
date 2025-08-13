@@ -1,5 +1,20 @@
 {
   "item.tutorialcraft.ruby": "Ruby",
   "item.tutorialcraft.sapphire": "Sapphire",
+
+  "item.tutorialcraft.ruby_helmet": "Ruby Helmet",
+  "item.tutorialcraft.ruby_chestplate": "Ruby Chestplate",
+  "item.tutorialcraft.ruby_leggings": "Ruby Leggings",
+  "item.tutorialcraft.ruby_boots": "Ruby Boots",
+
+  "item.tutorialcraft.ruby_pickaxe": "Ruby Pickaxe",
+  "item.tutorialcraft.ruby_axe": "Ruby Axe",
+  "item.tutorialcraft.ruby_shovel": "Ruby Shovel",
+  "item.tutorialcraft.ruby_sword": "Ruby Sword",
+  "item.tutorialcraft.ruby_hoe": "Ruby Hoe",
+
+  "block.tutorialcraft.ruby_ore" : "Ruby Ore",
+  "block.tutorialcraft.sapphire_ore" : "Sapphire Ore",
+
   "creativetab.tutorial_tab" : "Tutorial Tab"
 }
