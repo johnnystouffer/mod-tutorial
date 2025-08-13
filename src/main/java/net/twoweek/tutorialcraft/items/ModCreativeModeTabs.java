@@ -32,6 +32,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RUBY_PICKAXE.get());
                         pOutput.accept(ModItems.RUBY_SHOVEL.get());
                         pOutput.accept(ModItems.RUBY_HOE.get());
+                        pOutput.accept(ModItems.RUBY_HELMET.get());
+                        pOutput.accept(ModItems.RUBY_CHESTPLATE.get());
+                        pOutput.accept(ModItems.RUBY_LEGGINGS.get());
+                        pOutput.accept(ModItems.RUBY_BOOTS.get());
                     })
                     .build());
     public static void register(IEventBus eventBus) {

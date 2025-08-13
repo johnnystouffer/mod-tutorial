@@ -11,12 +11,12 @@ import org.jetbrains.annotations.NotNull;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     RUBY(
-            new int[]{3, 6, 8, 3},  // protection for BOOTS, LEGGINGS, CHESTPLATE, HELMET? (see note below)
-            15,                     // enchantment
-            2.5F,                   // toughness
-            0.5F,                   // knockback resistance
-            "ruby",                 // texture name key
-            Ingredient.EMPTY        // set to Ingredient.of(ModItems.RUBY.get()) or similar
+            new int[]{3, 6, 8, 3},             // protection for BOOTS, LEGGINGS, CHESTPLATE, HELMET? (see note below)
+            15,                                // enchantment
+            2.5F,                              // toughness
+            0.5F,                              // knockback resistance
+            "ruby",                            // texture name key
+            Ingredient.of(ModItems.RUBY.get()) // repair item
     );
 
     private static final java.util.Map<ArmorItem.Type, Integer> TYPE_INDEX = java.util.Map.of(
