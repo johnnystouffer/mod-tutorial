@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ##",
+    " S#",
+    " S "
+  ],
+  "key": {
+    "#": {
+      "item" : "tutorialcraft:ruby"
+    },
+    "S": {
+      "item" : "minecraft:stick"
+    }
+
+  },
+  "result": {
+    "item": "tutorialcraft:ruby_axe",
+    "count": 1
+  }
+}
