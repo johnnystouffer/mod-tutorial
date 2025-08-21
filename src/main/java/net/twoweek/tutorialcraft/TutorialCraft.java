@@ -91,7 +91,7 @@ public class TutorialCraft
         {
             // Some client setup code
             LOGGER.info("HELLO FROM CLIENT SETUP");
-            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+            LOGGER.info("MINECRAFT  NAME >> {}", Minecraft.getInstance().getUser().getName());
         }
     }
 }
